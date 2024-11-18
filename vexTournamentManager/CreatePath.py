@@ -3,7 +3,7 @@ from autopkglib import Processor, ProcessorError
 __all__ = ["CreatePath"]
 
 
-class SampleSharedProcessor(Processor):
+class CreatePath(Processor):
     """This processor creates a path if it does not exist."""
 
     description = __doc__
