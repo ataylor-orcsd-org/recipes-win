@@ -19,7 +19,7 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>URLDownloader</string>
+            <string>URLDownloaderPython</string>
             <key>Arguments</key>
             <dict>
                 <key>url</key>
