@@ -25,7 +25,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%[0-9\.]+-64bit.msi</string>
+                <string>%NAME%-64bit.msi</string>
             </dict>
         </dict>
         <dict>
