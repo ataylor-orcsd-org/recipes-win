@@ -49,15 +49,6 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>StopProcessingIf</string>
-            <key>Arguments</key>
-            <dict>
-                <key>predicate</key>
-                <string>download_changed == False</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>FileMover</string>
 			<key>Comment</key>
 			<string>Move the file to the Apps dir.</string>
@@ -74,6 +65,15 @@
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>StopProcessingIf</string>
+            <key>Arguments</key>
+            <dict>
+                <key>predicate</key>
+                <string>download_changed == False</string>
+            </dict>
         </dict>
     </array>
 </dict>
