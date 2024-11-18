@@ -26,7 +26,7 @@
                 <string>%DOWNLOAD_URL%</string>
             </dict>
         </dict>
-        <dict>
+        <!--dict>
             <key>Processor</key>
             <string>Regex</string>
             <key>Arguments</key>
@@ -35,7 +35,7 @@
                 <string>%pathname%</string>
                 <key>regexString</key>
                 <string>NHSecureBrowser([0-9\.]+)-64bit.msi</string>
-            </dict>
+            </dict-->
         </dict>
         <dict>
             <key>Processor</key>
