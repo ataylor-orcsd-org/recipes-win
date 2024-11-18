@@ -42,7 +42,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https:%DOWNLOAD_URL%</string>
+                <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
                 <string>%NAME%-%APP_VERSION%.exe</string>
             </dict>
