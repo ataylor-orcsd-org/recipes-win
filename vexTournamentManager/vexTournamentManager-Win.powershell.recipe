@@ -62,6 +62,12 @@
         </dict>
         <dict>
             <key>Processor</key>
+            <string>CreatePath</string>
+            <key>filepath</key>
+            <string>e:\Apps\vexTournamentManager\%APP_VERSION%\</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>FileMover</string>
 			<key>Comment</key>
 			<string>Move the file to the Apps dir.</string>
