@@ -11,15 +11,15 @@ class CreateWin32Intune(Processor):
         "exe": {
             "required": True,
             "description": "Path to IntuneWinAppUtil.exe",
-        }
+        },
         "source": {
             "required": True,
             "description": "Path to directory to bundle",
-        }
+        },
         "targetExe": {
             "required": True,
             "description": "Filename for exe/msi",
-        }
+        },
         "destination": {
             "required": True,
             "description": "Output Path",
