@@ -86,7 +86,7 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>CreatePath</string>
+            <string>CreateWin32Intune</string>
             <key>Arguments</key>
             <dict>
                 <key>exe</key>
