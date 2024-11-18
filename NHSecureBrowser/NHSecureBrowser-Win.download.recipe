@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>NHSecureBrowser</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://sb.portal.cambiumast.com/geturls?clientName=newHampshire&operatingSystem=windows</string>
+        <string>https%3A%2F%2Fsb.portal.cambiumast.com%2Fgeturls%3FclientName%3DnewHampshire%26operatingSystem%3Dwindows</string>
     </dict>
     <key>MinimumVersion</key>
     <string>17.0</string>
