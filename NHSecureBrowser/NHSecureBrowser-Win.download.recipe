@@ -19,27 +19,15 @@
     <array>
         <dict>
             <key>Processor</key>
-			<string>URLDownloader</string>
+            <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
-			    <key>filename</key>
+                <key>filename</key>
                 <string>%NAME%[0-9\.]+-64bit.msi</string>
             </dict>
         </dict>
-<!--        <dict>
-            <key>Processor</key>
-            <string>WindowsSignatureVerifier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>input_path</key>
-                <string>%pathname%</string>
-                <key>expected_subject</key>
-                <string>CN=Eidgenössische Technische Hochschule Zürich, O=Eidgenössische Technische Hochschule Zürich, L=Zürich, C=CH</string>
-            </dict>
-        </dict>
--->
         <dict>
             <key>Processor</key>
             <string>StopProcessingIf</string>
