@@ -40,10 +40,10 @@ class CreateWin32Intune(Processor):
         os.makedirs(os.path.dirname(destination), exist_ok=True)
 
         
-        cmd = exe + ' -c ' + source + ' -s ' + targetExe + ' -o ' + destination
+        cmd = exe + ' -q -c ' + source + ' -s ' + targetExe + ' -o ' + destination
         print("CMD to process: " + cmd)
-#        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, creationflags=0x08000000)
-#        process.wait()
+        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, creationflags=0x08000000)
+        process.wait()
 
 if __name__ == "__main__":
     PROCESSOR = SampleSharedProcessor()
