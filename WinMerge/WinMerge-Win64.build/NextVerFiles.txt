@@ -1,2 +1,0 @@
-read\create-log-WinSCP_VVeerrssiioonn_ML.txt
-read\readme-WinSCP_VVeerrssiioonn_ML.txt

@@ -1,3 +1,0 @@
-AppleMobileDeviceSupport64.msi
-Bonjour64.msi
-iTunes64.msi

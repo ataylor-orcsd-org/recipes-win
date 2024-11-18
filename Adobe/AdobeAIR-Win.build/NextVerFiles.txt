@@ -1,3 +1,0 @@
-helpers\AIR-Corp-config.mst
-read\create-log-Adobe_AIR_VVeerrssiioonn_ENU.txt
-read\readme-Adobe_AIR_VVeerrssiioonn_ENU.txt

@@ -1,6 +1,0 @@
-
-200113	Create CrystalMaker x64 for Windows
-
-
-200113	Version 1.0.0, by AutoPkg
-	

@@ -1,2 +1,0 @@
-read\create-log-GoogleDriveFS_VVeerrssiioonn_ML.txt
-read\readme-GoogleDriveFS_VVeerrssiioonn_ML.txt

@@ -1,3 +1,0 @@
-helpers\GChrome_ETHZchanges.mst
-read\create-log-GoogleChrome_VVeerrssiioonn_ML.txt
-read\readme-GoogleChrome_VVeerrssiioonn_ML.txt

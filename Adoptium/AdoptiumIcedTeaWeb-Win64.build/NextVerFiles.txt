@@ -1,2 +1,0 @@
-read\readme-Adoptium_IcedTea-Web_64_VVeerrssiioonn_ML.txt
-read\create-log-Adoptium_IcedTea-Web_64_VVeerrssiioonn_ML.txt

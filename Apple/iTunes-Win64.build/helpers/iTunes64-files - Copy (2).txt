@@ -1,2 +1,0 @@
-AppleMobileDeviceSupport64.msi
-iTunes64.msi

@@ -1,2 +1,0 @@
-read\create-log-VmwareVMRC_VVeerrssiioonn_ML.txt
-read\readme-VmwareVMRC_VVeerrssiioonn_ML.txt

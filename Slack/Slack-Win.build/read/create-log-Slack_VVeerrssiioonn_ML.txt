@@ -1,3 +1,0 @@
-190813	Slack x64 per machine install
-	No alterations at all.
-	We use the MSI out of the box here.

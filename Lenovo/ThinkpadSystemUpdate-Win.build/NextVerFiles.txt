@@ -1,2 +1,0 @@
-read\create-log-ThinkpadSystemUpdate_VVeerrssiioonn_ML.txt
-read\readme-ThinkpadSystemUpdate_VVeerrssiioonn_ML.txt

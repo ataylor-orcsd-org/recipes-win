@@ -1,2 +1,0 @@
-read\create-log-SpectrumProtect_64_VVeerrssiioonn_ML.txt
-read\readme-SpectrumProtect_64_VVeerrssiioonn_ML.txt

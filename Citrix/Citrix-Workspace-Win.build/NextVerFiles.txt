@@ -1,2 +1,0 @@
-read\create-log-CitrixWorkspace_VVeerrssiioonn_EN.txt
-read\readme-CitrixWorkspace_VVeerrssiioonn_EN.txt

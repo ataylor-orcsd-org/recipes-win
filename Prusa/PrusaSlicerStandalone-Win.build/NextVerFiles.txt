@@ -1,2 +1,0 @@
-read\create-log-PrusaSlicerStandalone_VVeerrssiioonn_ML.txt
-read\readme-PrusaSlicerStandalone_VVeerrssiioonn_ML.txt

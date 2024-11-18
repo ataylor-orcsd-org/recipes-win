@@ -1,2 +1,0 @@
-read\create-log-Blender_64_VVeerrssiioonn_ML.txt
-read\readme-Blender_64_VVeerrssiioonn_ML.txt
