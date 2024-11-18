@@ -41,8 +41,9 @@ class CreateWin32Intune(Processor):
 
         
         cmd = exe + ' -c ' + source + ' -s ' + targetExe + ' -o ' + destination
-        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, creationflags=0x08000000)
-        process.wait()
+        write-host "CMD to process: " + cmd
+#        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, creationflags=0x08000000)
+#        process.wait()
 
 if __name__ == "__main__":
     PROCESSOR = SampleSharedProcessor()
