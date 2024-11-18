@@ -35,9 +35,9 @@
             <dict>
                 <key>string</key>
                 <string>%PATHNAME%</string>
-                <key>regex</string>
+                <key>regex</key>
                 <string>NHSecureBrowser([0-9\.]+)-64bit.msi</string>
-            
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
