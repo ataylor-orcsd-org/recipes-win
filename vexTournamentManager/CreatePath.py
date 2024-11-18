@@ -18,6 +18,7 @@ class CreatePath(Processor):
     }
 
     def main(self):
+        filepath = self.env.get('filepath')
         import os
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
