@@ -84,6 +84,21 @@
                 <string>true</string>
             </dict>
         </dict>
+        <dict>
+            <key>Processor</key>
+            <string>CreatePath</string>
+            <key>Arguments</key>
+            <dict>
+                <key>exe</key>
+                <string>e:\\Tools\Microsoft-Win32-Content-Prep-Tool-1.8.6\IntuneWinAppUtil.exe</string>
+                <key>source</key>
+                <string>e:\Apps\vexTournamentManager\%APP_VERSION%</string>
+                <key>targetExe</key>
+                <string>%NAME%-%APP_VERSION%.exe</string>
+                <key>destination</key>
+                <string>e:\IntuneWIN\vexTournamentManager\%APP_VERSION%</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>
