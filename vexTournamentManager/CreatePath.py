@@ -14,7 +14,6 @@ class CreatePath(Processor):
         }
     }
     output_variables = {
-        "new_path": {"description": "Outputs the newly created path."}
     }
 
     def main(self):
