@@ -3,21 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download recipe for VEX Tournament Manager.</string>
+    <string>Download recipe for NH Secure Browser.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg-win.download.vexTournamentManager-Win</string>
+    <string>com.github.autopkg-win.download.NHSecureBrowser-Win</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>vexTournamentManager</string>
-        <key>HOMEPAGE_URL</key>
-        <string>https://vextm.dwabtech.com/</string>
-        <key>PAGE_REGEX</key>
-        <string>\/\/vextm.dwabtech.com\/releases\/(v[0-9\.]+_[0-9\.]+)\/VEXTournamentManager-v[0-9\.]+_[0-9\.]+.exe</string>
-        <key>APP_VERSION</key>
-        <string></string>
+        <string>NHSecureBrowser</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://vextm.dwabtech.com/releases/%APP_VERSION%/VEXTournamentManager-%APP_VERSION%.exe</string>
+        <string>https://sb.portal.cambiumast.com/geturls?clientName=newHampshire&amp;operatingSystem=windows</string>
     </dict>
     <key>MinimumVersion</key>
     <string>2.7.0</string>
@@ -25,31 +19,25 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>URLTextSearcher</string>
-            <key>Arguments</key>
-            <dict>
-                <key>re_pattern</key>
-                <string>%PAGE_REGEX%</string>
-                <key>url</key>
-                <string>%HOMEPAGE_URL%</string>
-                <key>result_output_var_name</key>
-                <string>APP_VERSION</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://vextm.dwabtech.com/releases/%APP_VERSION%/VEXTournamentManager-%APP_VERSION%.exe</string>
+                <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%-%APP_VERSION%.exe</string>
+                <string>%PATHNAME%</string>
             </dict>
         </dict>
         <dict>
             <key>Processor</key>
-            <string>EndOfCheckPhase</string>
+            <string>Regex</string>
+            <key>arguments</key>
+            <dict>
+                <key>string</key>
+                <string>%PATHNAME%</string>
+                <key>regex</string>
+                <string>NHSecureBrowser([0-9\.]+)-64bit.msi</string>
+            
         </dict>
         <dict>
             <key>Processor</key>
@@ -62,24 +50,28 @@
         </dict>
         <dict>
             <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>CreatePath</string>
             <key>Arguments</key>
             <dict>
                 <key>filepath</key>
-                <string>e:\Apps\vexTournamentManager\%APP_VERSION%\</string>
+                <string>e:\Apps\NHSecureBrowser\%regoutput%\</string>
             </dict>
         </dict>
         <dict>
             <key>Processor</key>
             <string>FileMover</string>
-			<key>Comment</key>
-			<string>Move the file to the Apps dir.</string>
+            <key>Comment</key>
+            <string>Move the file to the Apps dir.</string>
             <key>Arguments</key>
             <dict>
                 <key>source</key>
                 <string>%pathname%</string>
                 <key>target</key>
-                <string>e:\Apps\vexTournamentManager\%APP_VERSION%\%NAME%-%APP_VERSION%.exe</string>
+                <string>e:\Apps\NHSecureBrowser\%regoutput%\%NAME%-%regoutput%-64bit.msi</string>
                 <key>overwrite</key>
                 <string>true</string>
             </dict>
@@ -92,11 +84,11 @@
                 <key>exe</key>
                 <string>e:\\Tools\Microsoft-Win32-Content-Prep-Tool-1.8.6\IntuneWinAppUtil.exe</string>
                 <key>source</key>
-                <string>e:\Apps\vexTournamentManager\%APP_VERSION%</string>
+                <string>e:\Apps\NHSecureBrowser\%regoutput%</string>
                 <key>targetExe</key>
-                <string>%NAME%-%APP_VERSION%.exe</string>
+                <string>%NAME%-%regoutput%-64bit.msi</string>
                 <key>destination</key>
-                <string>e:\IntuneWIN\vexTournamentManager\%APP_VERSION%</string>
+                <string>e:\IntuneWIN\NHSecureBrowser\%regoutput%</string>
             </dict>
         </dict>
     </array>

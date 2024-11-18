@@ -49,6 +49,10 @@
         </dict>
         <dict>
             <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>StopProcessingIf</string>
             <key>Arguments</key>
             <dict>
@@ -58,7 +62,42 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>EndOfCheckPhase</string>
+            <string>CreatePath</string>
+            <key>Arguments</key>
+            <dict>
+                <key>filepath</key>
+                <string>e:\Apps\vexTournamentManager\%APP_VERSION%\</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>FileMover</string>
+            <key>Comment</key>
+            <string>Move the file to the Apps dir.</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source</key>
+                <string>%pathname%</string>
+                <key>target</key>
+                <string>e:\Apps\vexTournamentManager\%APP_VERSION%\%NAME%-%APP_VERSION%.exe</string>
+                <key>overwrite</key>
+                <string>true</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>CreateWin32Intune</string>
+            <key>Arguments</key>
+            <dict>
+                <key>exe</key>
+                <string>e:\\Tools\Microsoft-Win32-Content-Prep-Tool-1.8.6\IntuneWinAppUtil.exe</string>
+                <key>source</key>
+                <string>e:\Apps\vexTournamentManager\%APP_VERSION%</string>
+                <key>targetExe</key>
+                <string>%NAME%-%APP_VERSION%.exe</string>
+                <key>destination</key>
+                <string>e:\IntuneWIN\vexTournamentManager\%APP_VERSION%</string>
+            </dict>
         </dict>
     </array>
 </dict>

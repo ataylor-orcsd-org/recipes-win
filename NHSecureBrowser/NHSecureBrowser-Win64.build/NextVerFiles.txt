@@ -1,3 +1,0 @@
-read\create-log-NHSecureBrowser_64_VVeerrssiioonn_ML.txt
-read\readme-NHSecureBrowser_64_VVeerrssiioonn_ML.txt
-helpers\NHSB_Uninst-log-Rem-Chng-Add-SC.mst
