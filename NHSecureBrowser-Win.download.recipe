@@ -33,7 +33,7 @@
             <string>Regex</string>
             <key>arguments</key>
             <dict>
-                <key>string</key>
+                <key>searchString</key>
                 <string>%PATHNAME%</string>
                 <key>regex</key>
                 <string>NHSecureBrowser([0-9\.]+)-64bit.msi</string>

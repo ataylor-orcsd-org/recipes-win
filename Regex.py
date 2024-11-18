@@ -9,7 +9,7 @@ class Regex(Processor):
 
     description = __doc__
     input_variables = {
-        "string": {
+        "searchString": {
             "required": True,
             "description": "String to search.",
         },
@@ -24,10 +24,10 @@ class Regex(Processor):
     }
 
     def main(self):
-        string = self.env.get('string')
+        searchString = self.env.get('searchString')
         regex = self.env.get('regex')
 
-        regoutput = re.search(regex, string)
+        regoutput = re.search(regex, searchString)
 
 if __name__ == "__main__":
     PROCESSOR = SampleSharedProcessor()
