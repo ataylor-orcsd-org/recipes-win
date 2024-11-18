@@ -42,7 +42,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>%DOWNLOAD_URL%</string>
+                <string>https://vextm.dwabtech.com/releases/%APP_VERSION%/VEXTournamentManager-%APP_VERSION%.exe</string>
                 <key>filename</key>
                 <string>%NAME%-%APP_VERSION%.exe</string>
             </dict>
