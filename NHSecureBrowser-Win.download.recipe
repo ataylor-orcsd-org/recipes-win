@@ -31,7 +31,7 @@
         <dict>
             <key>Processor</key>
             <string>Regex</string>
-            <key>arguments</key>
+            <key>Arguments</key>
             <dict>
                 <key>searchString</key>
                 <string>%PATHNAME%</string>
