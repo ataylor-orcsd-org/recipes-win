@@ -13,7 +13,7 @@ class Regex(Processor):
             "required": True,
             "description": "String to search.",
         },
-        "regex": {
+        "regexString": {
             "required": True,
             "description": "String to search.",
         }
@@ -26,11 +26,11 @@ class Regex(Processor):
 
     def main(self):
         searchString = self.env.get('searchString')
-        regex = self.env.get('regex')
+        regexString = self.env.get('regexString')
 
-        regoutput = re.search(regex, searchString)
-        self.env['regoutput'] = regex
+        regoutput = re.search(regexString, searchString)
+        self.env['regoutput'] = regoutput
 
 if __name__ == "__main__":
-    PROCESSOR = SampleSharedProcessor()
+    PROCESSOR = Regex()
     PROCESSOR.execute_shell()
