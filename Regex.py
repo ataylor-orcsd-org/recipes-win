@@ -12,7 +12,7 @@ class Regex(Processor):
         "string": {
             "required": True,
             "description": "String to search.",
-        }
+        },
         "regex": {
             "required": True,
             "description": "String to search.",
