@@ -58,10 +58,6 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>EndOfCheckPhase</string>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>FileMover</string>
 			<key>Comment</key>
 			<string>Move the file to the Apps dir.</string>
@@ -74,6 +70,10 @@
                 <key>overwrite</key>
                 <string>true</string>
             </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
         </dict>
     </array>
 </dict>
