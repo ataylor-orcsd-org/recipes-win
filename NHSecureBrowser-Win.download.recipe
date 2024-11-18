@@ -25,7 +25,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%PATHNAME%</string>
+                <string>%pathname%</string>
             </dict>
         </dict>
         <dict>
@@ -34,7 +34,7 @@
             <key>Arguments</key>
             <dict>
                 <key>searchString</key>
-                <string>%PATHNAME%</string>
+                <string>%pathname%</string>
                 <key>regex</key>
                 <string>NHSecureBrowser([0-9\.]+)-64bit.msi</string>
             </dict>

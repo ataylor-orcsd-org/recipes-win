@@ -20,7 +20,8 @@ class Regex(Processor):
     }
     output_variables = {
         "regoutput": {
-        }
+            "description": "Result of regex search.",
+        },
     }
 
     def main(self):
@@ -28,6 +29,7 @@ class Regex(Processor):
         regex = self.env.get('regex')
 
         regoutput = re.search(regex, searchString)
+        self.env['regoutput'] = regex
 
 if __name__ == "__main__":
     PROCESSOR = SampleSharedProcessor()
