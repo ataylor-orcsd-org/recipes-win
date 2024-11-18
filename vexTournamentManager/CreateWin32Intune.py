@@ -10,13 +10,16 @@ class CreateWin32Intune(Processor):
     input_variables = {
         "exe": {
             "required": True,
-            "description": "Path to IntuneWinAppUtil.exe",
+            "description": "Path to IntuneWinAppUtil.exe"
+        }
         "source": {
             "required": True,
-            "description": "Path to directory to bundle",
+            "description": "Path to directory to bundle"
+        }
         "targetExe": {
             "required": True,
-            "description": "Filename for exe/msi",
+            "description": "Filename for exe/msi"
+        }
         "destination": {
             "required": True,
             "description": "Output Path"
