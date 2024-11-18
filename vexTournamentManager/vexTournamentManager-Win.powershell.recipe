@@ -63,8 +63,11 @@
         <dict>
             <key>Processor</key>
             <string>CreatePath</string>
-            <key>filepath</key>
-            <string>e:\Apps\vexTournamentManager\%APP_VERSION%\</string>
+            <key>Arguments</key>
+            <dict>
+                <key>filepath</key>
+                <string>e:\Apps\vexTournamentManager\%APP_VERSION%\</string>
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
