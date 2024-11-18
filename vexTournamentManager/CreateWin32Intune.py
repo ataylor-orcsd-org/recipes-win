@@ -41,7 +41,7 @@ class CreateWin32Intune(Processor):
 
         
         cmd = exe + ' -c ' + source + ' -s ' + targetExe + ' -o ' + destination
-        write-host "CMD to process: " + cmd
+        write-host ("CMD to process: " + cmd)
 #        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, creationflags=0x08000000)
 #        process.wait()
 
