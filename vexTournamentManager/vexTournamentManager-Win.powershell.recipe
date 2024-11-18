@@ -68,7 +68,7 @@
             <key>Arguments</key>
             <dict>
                 <key>source</key>
-                <string>%found_filename%</string>
+                <string>%pkg_path%</string>
                 <key>target</key>
                 <string>e:\Apps\vexTournamentManager\%APP_VERSION%\%NAME%-%APP_VERSION%.exe</string>
                 <key>overwrite</key>
